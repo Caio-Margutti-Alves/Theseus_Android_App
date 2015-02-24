@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LoginFormContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SettingsForm"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtvSearchRadius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/search_radius"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/txtvRadiusBetween"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right|center_vertical"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/example"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>

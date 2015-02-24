@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Drawer Menu -->
+    <string-array name="nav_menu_items">
+        <item>Map</item>
+        <item>Friends</item>
+ 		<item>Profile</item>
+    	<item>Settings</item>
+        <item>Invite</item>
+    </string-array>
+
+    <!-- Mark Options -->
+    <string-array name="mark_option">
+        <item>View Point</item>
+        <item>Animal</item>
+        <item>Warning</item>
+        <item>Closure</item>
+        <item>Emergency</item>
+        <item>Question</item>
+    </string-array>
+
+    <!-- Mark Descriptions -->
+    <string-array name="mark_descriptions">
+        <item>Markup something really coll yo saw on the way!</item>
+        <item>What animal did you see? Was it dangerous?</item>
+        <item>Watch out! Something really bad might have happened</item>
+        <item>It looks like you might have to take another way.</item>
+        <item>SOMEONE NEEDS YOUR HELP RIGHT NOW!</item>
+        <item>What do you want to know about this place?</item>
+    </string-array>
+
+    <!-- Maps Options -->
+    <string-array name="maps_styles">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+
+    <!-- Trails Options -->
+    <string-array name="trails_options">
+        <item>All Trails</item>
+        <item>Jones Valley Corridor</item>
+        <item>Shades Creek Corridor</item>
+        <item>Turkey Creek Corridor</item>
+        <item>Cahaba River Corridor</item>
+    </string-array>
+
+    <!-- HOME____Description -->
+    <string name="d_maps">Find what is happening near you!</string>
+    <string name="d_friends">Your friends within the app</string>
+    <string name="d_profile">Your basic information</string>
+    <string name="d_settings">Search and APP preferences</string>
+    <string name="d_default">Error, contact the programmer</string>
+    <string name="d_invite">Invite friends from Facebook, Gmail&#8230;</string>
+
+    <!-- Mark Options -->
+    <string-array name="trail_jones_valley_corridor">
+        <item>33.390583 -87.011644</item>
+        <item>33.388301 -87.009832</item>
+        <item>33.388781 -87.005326</item>
+        <item>33.391775 -87.003063</item>
+        <item>33.406171 -86.985725</item>
+        <item>33.413824 -86.984281</item>
+        <item>33.423376 -86.975022</item>
+        <item>33.422651 -86.969898</item>
+        <item>33.419048 -86.964757</item>
+        <item>33.427442 -86.947628</item>
+        <item>33.435337 -86.937941</item>
+        <item>33.452589 -86.919535</item>
+        <item>33.456798 -86.907197</item>
+        <item>33.462124 -86.898326</item>
+        <item>33.481205 -86.882932</item>
+        <item>33.496576 -86.866972</item>
+        <item>33.506185 -86.826602</item>
+        <item>33.510496 -86.814221</item>
+        <item>33.519838 -86.794792</item>
+        <item>33.524396 -86.784961</item>
+        <item>33.543263 -86.748533</item>
+        <item>33.577189 -86.717045</item>
+        <item>33.583791 -86.709349</item>
+        <item>33.590976 -86.704957</item>
+    </string-array>
+
+    <string-array name="trail_shades_creek_corridor">
+        <item>33.355219 -86.936832</item>
+        <item>33.356289 -86.935796</item>
+        <item>33.357684	-86.933278</item>
+        <item>33.360543	-86.929712</item>
+        <item>33.357818	-86.926795</item>
+        <item>33.360831	-86.924629</item>
+        <item>33.364644	-86.913428</item>
+        <item>33.364971	-86.893722</item>
+        <item>33.356062	-86.890051</item>
+        <item>33.375812	-86.862204</item>
+        <item>33.377218	-86.857607</item>
+        <item>33.407976	-86.867386</item>
+        <item>33.423588	-86.855806</item>
+        <item>33.439258	-86.842829</item>
+        <item>33.440038	-86.837928</item>
+        <item>33.443962	-86.824512</item>
+        <item>33.450341	-86.810604</item>
+        <item>33.460536	-86.794113</item>
+        <item>33.471504	-86.770198</item>
+        <item>33.475645	-86.764163</item>
+        <item>33.486639	-86.753041</item>
+        <item>33.492128	-86.744678</item>
+        <item>33.498637	-86.743808</item>
+        <item>33.506347	-86.733075</item>
+        <item>33.509044	-86.734199</item>
+        <item>33.508891	-86.732158</item>
+        <item>33.516729	-86.723789</item>
+        <item>33.525773	-86.710185</item>
+    </string-array>
+
+
+    <string-array name="trail_turkey_creek_corridor">
+        <item>33.735260	-86.727268</item>
+        <item>33.733137	-86.727525</item>
+        <item>33.731495	-86.728512</item>
+        <item>33.730192	-86.729757</item>
+        <item>33.728336	-86.731023</item>
+        <item>33.728051	-86.729735</item>
+        <item>33.727337	-86.729006</item>
+        <item>33.725624	-86.728147</item>
+        <item>33.724374	-86.727654</item>
+        <item>33.722840	-86.727654</item>
+        <item>33.721894	-86.726559</item>
+        <item>33.721894	-86.726559</item>
+        <item>33.720307	-86.724547</item>
+        <item>33.719147	-86.723946</item>
+        <item>33.716595	-86.721049</item>
+        <item>33.714185	-86.718153</item>
+        <item>33.713703	-86.717380</item>
+        <item>33.713489	-86.716565</item>
+        <item>33.713150	-86.714677</item>
+        <item>33.712829	-86.713711</item>
+        <item>33.712311	-86.713089</item>
+        <item>33.711526	-86.712659</item>
+        <item>33.709862	-86.712165</item>
+        <item>33.708201	-86.710685</item>
+        <item>33.706202	-86.708818</item>
+        <item>33.705131	-86.708089</item>
+        <item>33.703565	-86.707810</item>
+        <item>33.704261	-86.705171</item>
+        <item>33.705225	-86.703497</item>
+        <item>33.703957	-86.701501</item>
+        <item>33.703904	-86.699978</item>
+        <item>33.702797	-86.699506</item>
+        <item>33.702507	-86.699163</item>
+        <item>33.702025	-86.697317</item>
+        <item>33.702096	-86.696438</item>
+        <item>33.703292	-86.696373</item>
+        <item>33.703828	-86.696051</item>
+        <item>33.704399	-86.695601</item>
+        <item>33.704756	-86.694270</item>
+        <item>33.704649	-86.693562</item>
+        <item>33.703721	-86.692597</item>
+        <item>33.703101	-86.692329</item>
+        <item>33.702351	-86.692790</item>
+        <item>33.701887	-86.692543</item>
+        <item>33.703525	-86.689485</item>
+        <item>33.701561	-86.687618</item>
+        <item>33.699740	-86.687028</item>
+        <item>33.699017	-86.685859</item>
+        <item>33.699133	-86.684067</item>
+        <item>33.700178	-86.683316</item>
+        <item>33.700290	-86.682662</item>
+        <item>33.699768	-86.681332</item>
+        <item>33.699786	-86.680817</item>
+        <item>33.699375	-86.679733</item>
+        <item>33.700232	-86.677351</item>
+        <item>33.700290	-86.682662</item>
+        <item>33.699393	-86.679765</item>
+        <item>33.700214	-86.677373</item>
+        <item>33.699161	-86.674390</item>
+        <item>33.700446	-86.670528</item>
+        <item>33.700384	-86.668221</item>
+        <item>33.700892	-86.666129</item>
+        <item>33.700294	-86.663940</item>
+        <item>33.697938	-86.660464</item>
+        <item>33.696831	-86.657213</item>
+        <item>33.694082	-86.658286</item>
+        <item>33.691297	-86.657685</item>
+        <item>33.689404	-86.655947</item>
+        <item>33.687655	-86.650990</item>
+        <item>33.687958	-86.647729</item>
+        <item>33.687494	-86.646656</item>
+        <item>33.686387	-86.646248</item>
+        <item>33.684958	-86.647042</item>
+        <item>33.681209	-86.645755</item>
+        <item>33.680548	-86.644124</item>
+        <item>33.680727	-86.642944</item>
+        <item>33.679334	-86.639790</item>
+    </string-array>
+
+    <string-array name="trail_cahaba_river_corridor">
+        <item>33.360867	-86.817022</item>
+        <item>33.361727	-86.815745</item>
+        <item>33.362471	-86.814736</item>
+        <item>33.362865	-86.814071</item>
+        <item>33.363340	-86.813363</item>
+        <item>33.364917	-86.810852</item>
+        <item>33.364550	-86.808749</item>
+        <item>33.365240	-86.804492</item>
+        <item>33.366109	-86.802443</item>
+        <item>33.366449 -86.800179</item>
+        <item>33.366610	-86.797400</item>
+        <item>33.370875 -86.796198</item>
+        <item>33.371681	-86.792947</item>
+        <item>33.370104	-86.791327</item>
+        <item>33.369019	-86.781197</item>
+        <item>33.371420 -86.777976</item>
+        <item>33.367980	-86.774300</item>
+        <item>33.369611	-86.773141</item>
+        <item>33.370588	-86.772025</item>
+        <item>33.379757	-86.773636</item>
+        <item>33.379040 -86.778228</item>
+        <item>33.382579	-86.780492</item>
+        <item>33.384407	-86.777778</item>
+        <item>33.386351	-86.778282</item>
+        <item>33.387874 -86.776437</item>
+        <item>33.387135	-86.774576</item>
+        <item>33.388971 -86.771733</item>
+        <item>33.389858	-86.772227</item>
+        <item>33.390548	-86.771497</item>
+        <item>33.390987	-86.769147</item>
+        <item>33.391990	-86.769061</item>
+        <item>33.393097	-86.766846</item>
+        <item>33.394629	-86.765998</item>
+        <item>33.399215	-86.758896</item>
+        <item>33.400021	-86.758799</item>
+        <item>33.400621	-86.757758</item>
+        <item>33.401194	-86.759056</item>
+        <item>33.403603 -86.757093</item>
+        <item>33.405968	-86.757350</item>
+        <item>33.412469 -86.752521</item>
+        <item>33.414717	-86.745697</item>
+        <item>33.414529 -86.744946</item>
+        <item>33.415736	-86.735970</item>
+        <item>33.414733 -86.734822</item>
+        <item>33.412208	-86.735605</item>
+        <item>33.411796	-86.734425</item>
+        <item>33.413336	-86.731956</item>
+        <item>33.413005	-86.730226</item>
+        <item>33.415429	-86.727675</item>
+        <item>33.417819	-86.728197</item>
+        <item>33.419240	-86.727693</item>
+        <item>33.422473	-86.722522</item>
+        <item>33.421022	-86.720591</item>
+        <item>33.422043 -86.719357</item>
+        <item>33.430567	-86.721503</item>
+        <item>33.431731 -86.714015</item>
+        <item>33.434336	-86.711719</item>
+        <item>33.439502 -86.713515</item>
+        <item>33.440191 -86.712313</item>
+        <item>33.438571	-86.709513</item>
+        <item>33.438974	-86.707689</item>
+        <item>33.440639 -86.705769</item>
+        <item>33.442430 -86.706080</item>
+        <item>33.442135 -86.711069</item>
+        <item>33.443514	-86.715253</item>
+        <item>33.444508 -86.715489</item>
+        <item>33.446163	-86.714522</item>
+        <item>33.450227	-86.715691</item>
+        <item>33.451274	-86.715412</item>
+        <item>33.454667	-86.710069</item>
+        <item>33.457245	-86.710831</item>
+        <item>33.465032	-86.707623</item>
+        <item>33.469068	-86.703718</item>
+        <item>33.469802	-86.704845</item>
+        <item>33.467323	-86.707645</item>
+        <item>33.471297	-86.717752</item>
+        <item>33.473329	-86.716159</item>
+        <item>33.473329	-86.716159</item>
+        <item>33.480343	-86.712402</item>
+        <item>33.483144	-86.712627</item>
+        <item>33.485854 -86.709261</item>
+        <item>33.484870 -86.701890</item>
+        <item>33.488666	-86.698676</item>
+        <item>33.487795 -86.696135</item>
+        <item>33.484970	-86.696019</item>
+        <item>33.483529	-86.694528</item>
+        <item>33.486923	-86.691021</item>
+        <item>33.489527	-86.694250</item>
+        <item>33.491460 -86.694443</item>
+        <item>33.492874	-86.692780</item>
+        <item>33.492489	-86.691299</item>
+        <item>33.488865	-86.690653</item>
+        <item>33.488283 -86.689462</item>
+        <item>33.489050 -86.688050</item>
+        <item>33.491564	-86.687235</item>
+        <item>33.493886	-86.684466</item>
+        <item>33.498762	-86.676216</item>
+        <item>33.499894	-86.673550</item>
+        <item>33.500945	-86.672879</item>
+        <item>33.498994 -86.677578</item>
+        <item>33.500671	-86.679407</item>
+        <item>33.501883	-86.678790</item>
+        <item>33.502004	-86.677154</item>
+        <item>33.502742 -86.675571</item>
+        <item>33.505010	-86.673441</item>
+        <item>33.504227	-86.668930</item>
+        <item>33.508096 -86.665078</item>
+        <item>33.507367	-86.662482</item>
+        <item>33.509277 -86.661441</item>
+        <item>33.513642 -86.664025</item>
+        <item>33.514935	-86.662577</item>
+        <item>33.509487	-86.655579</item>
+        <item>33.511513	-86.652886</item>
+        <item>33.508758 -86.649052</item>
+        <item>33.511549	-86.646038</item>
+        <item>33.512376	-86.646692</item>
+        <item>33.513731	-86.646467</item>
+        <item>33.515050 -86.645244</item>
+        <item>33.517326	-86.646531</item>
+        <item>33.519933	-86.643463</item>
+        <item>33.521324 -86.643206</item>
+        <item>33.523144	-86.639880</item>
+        <item>33.525393	-86.639376</item>
+        <item>33.529064 -86.634248</item>
+        <item>33.530768 -86.629441</item>
+        <item>33.534064 -86.630514</item>
+        <item>33.538942	-86.627649</item>
+        <item>33.542202 -86.632016</item>
+        <item>33.545933	-86.626832</item>
+        <item>33.543545	-86.627042</item>
+        <item>33.539776 -86.621785</item>
+        <item>33.545369	-86.616839</item>
+        <item>33.544676 -86.615584</item>
+        <item>33.545047 -86.613256</item>
+        <item>33.550372	-86.611464</item>
+        <item>33.551369 -86.609232</item>
+        <item>33.552089	-86.610262</item>
+        <item>33.551637 -86.612912</item>
+        <item>33.555665 -86.614296</item>
+        <item>33.556617 -86.612633</item>
+        <item>33.551811 -86.604157</item>
+        <item>33.552584	-86.602151</item>
+        <item>33.553098	-86.595327</item>
+        <item>33.548930	-86.591113</item>
+        <item>33.551957 -86.587100</item>
+        <item>33.553258 -86.589299</item>
+        <item>33.555086	-86.589975</item>
+        <item>33.557433 -86.587561</item>
+        <item>33.559360	-86.588140</item>
+        <item>33.560759 -86.585619</item>
+        <item>33.563392 -86.584192</item>
+        <item>33.564201 -86.584267</item>
+        <item>33.564930	-86.582486</item>
+        <item>33.566588 -86.582540</item>
+        <item>33.567513 -86.581585</item>
+        <item>33.569600	-86.581928</item>
+        <item>33.573645	-86.572186</item>
+        <item>33.575705 -86.570132</item>
+        <item>33.580635 -86.562783</item>
+        <item>33.578566 -86.563159</item>
+        <item>33.578222 -86.562333</item>
+        <item>33.580613	-86.556657</item>
+        <item>33.581967	-86.556131</item>
+        <item>33.584420	-86.553288</item>
+        <item>33.585971 -86.553073</item>
+        <item>33.588862	-86.550219</item>
+        <item>33.589447	-86.549168</item>
+        <item>33.589300 -86.547966</item>
+        <item>33.589930 -86.546925</item>
+        <item>33.590998	-86.546421</item>
+        <item>33.590484 -86.543975</item>
+        <item>33.591034	-86.543192</item>
+        <item>33.596481 -86.548178</item>
+        <item>33.598947 -86.554128</item>
+        <item>33.601355 -86.550791</item>
+        <item>33.602932	-86.550147</item>
+        <item>33.603955	-86.548902</item>
+        <item>33.605336 -86.549149</item>
+        <item>33.606752 -86.547186</item>
+        <item>33.606801	-86.544171</item>
+        <item>33.608789	-86.542626</item>
+        <item>33.612082 -86.544847</item>
+        <item>33.613221	-86.544933</item>
+        <item>33.611885 -86.547959</item>
+        <item>33.611121	-86.548259</item>
+        <item>33.608177	-86.553023</item>
+        <item>33.609441	-86.553624</item>
+        <item>33.610241	-86.554311</item>
+        <item>33.611300 -86.554483</item>
+        <item>33.613806	-86.556114</item>
+        <item>33.614731	-86.557906</item>
+        <item>33.616076	-86.559151</item>
+        <item>33.616161 -86.562230</item>
+        <item>33.614245	-86.562670</item>
+        <item>33.613544	-86.565084</item>
+        <item>33.618131	-86.566919</item>
+        <item>33.620003 -86.565578</item>
+        <item>33.621723 -86.566930</item>
+        <item>33.623988 -86.566748</item>
+        <item>33.624287	-86.569269</item>
+        <item>33.621960 -86.570353</item>
+        <item>33.620892	-86.572306</item>
+        <item>33.620468	-86.575686</item>
+        <item>33.619963 -86.576255</item>
+        <item>33.618967	-86.581995</item>
+        <item>33.617640	-86.583164</item>
+        <item>33.618600 -86.585793</item>
+        <item>33.621553	-86.585203</item>
+        <item>33.622531	-86.582188</item>
+        <item>33.623884 -86.582703</item>
+        <item>33.623299 -86.583905</item>
+        <item>33.626462 -86.590053</item>
+        <item>33.620165	-86.596416</item>
+        <item>33.625101 -86.601701</item>
+        <item>33.628545	-86.602227</item>
+        <item>33.640918	-86.595209</item>
+        <item>33.642709	-86.596389</item>
+        <item>33.648877 -86.594458</item>
+        <item>33.649382 -86.592548</item>
+        <item>33.650387	-86.591175</item>
+        <item>33.653008	-86.591690</item>
+        <item>33.655281	-86.589351</item>
+        <item>33.664171	-86.591711</item>
+        <item>33.668104 -86.590638</item>
+        <item>33.671999 -86.579174</item>
+        <item>33.674814	-86.581650</item>
+        <item>33.677765	-86.581961</item>
+        <item>33.678314 -86.581231</item>
+        <item>33.679381	-86.581456</item>
+        <item>33.681948	-86.579761</item>
+        <item>33.684460	-86.580458</item>
+        <item>33.684527 -86.580834</item>
+        <item>33.685857 -86.581769</item>
+        <item>33.686435 -86.581522</item>
+        <item>33.688446 -86.582305</item>
+        <item>33.689780 -86.583968</item>
+        <item>33.689744 -86.584842</item>
+        <item>33.689744 -86.585974</item>
+
+    </string-array>
+
+</resources>

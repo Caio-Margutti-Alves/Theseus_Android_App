@@ -1,0 +1,136 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    style="@style/LoginFormContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.main.rex.ProfileActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+         <com.facebook.widget.ProfilePictureView
+            android:id="@+id/imgvProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:visibility="visible" 
+            />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnProfileMale"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/male"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnProfileFemale"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:text="@string/female"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edtFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="@string/prompt_first_name"
+                    android:inputType="textPersonName"
+                    android:minHeight="?android:attr/listPreferredItemHeight" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edtLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:ems="10"
+                    android:hint="@string/prompt_last_name"
+                    android:inputType="textPersonName"
+                    android:minHeight="?android:attr/listPreferredItemHeight" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_age"
+                android:maxLines="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/edtLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_login"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:singleLine="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:hint="@string/prompt_password"
+                    android:imeActionId="@+id/login"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:minHeight="?android:attr/listPreferredItemHeight"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
